@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+}
+@media screen and (max-with: 980px) {
+    #container{
+        width: 90%;
+    }
+    
+}
+body{
+    background-color: #8a6feb;
+    background-image: url(/img/volcan.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*IMG*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+            /* Container */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+  max-width: 1024px;
+  width: 90%;
+}
+
+            /* Header */
+.container header{
+    text-align: center;
+    height: 55px;
+}
+
+header .img-logo{
+    height: 90px;
+}
+
+            /* Navegation */
+
+.container nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container nav .nav-item{
+    color: rgb(247, 247, 247);
+    font-size: 28px;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.container nav .nav-item:hover{
+    color: #002aff;
+    font-size: 25px;
+    transition: 0.5s;
+    text-decoration:dashed;
+
+}
+
+            /* Main */
+
+.container main{
+    text-align: center;
+    height: 300px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container main h1{
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    transition: 0.3s;
+}
+
+.container main h1:hover{
+    text-shadow:5px 5px #1707f1;
+    transition: 0.3s;
+}
+
+.container main p{
+    font-size: 15px;
+    color: rgb(247, 247, 247);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container main p a{
+    text-decoration: none;
+    color: white;
+}
+
+
+            /* Footer */
+
+.container footer{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 20px ;
+    
+    
+    
+}
+
+.container footer p{
+    background-color: rgba(128, 128, 128, 0);
+    bottom: 0px;
+    position: absolute;
+}
